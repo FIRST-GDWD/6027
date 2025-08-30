@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#span-2 {
+    font-style: italic;
+}
+
+#big-paragraph {
+    font-size: 16px;
+    /* line-height: 24px;
+    letter-spacing: 3px; */
+    font-family:
+        'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#big-letter {
+    font-size: 60px;
+    line-height: 50px;
+}
+
+
+#ff-1 {
+    font-family: serif;
+    text-align: left;
+}
+
+#ff-2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#ff-3 {
+    font-family: monospace;
+    text-align: right;
+}
+
+#ff-4 {
+    font-family: cursive;
+}
+
+#ff-5 {
+    font-family: fantasy;
+}
+
+#no-underline {
+    text-decoration: none;
+    color: lime;
+}
+
+#image-align {
+    width: 100px;
+    /* DO NOT DO THIS */
+    /* text-align: center; */
+}
+
+#alignment-test {
+    /* DO THIS TO CENTER AN IMAGE */
+    text-align: center;
+}
+
+/* This is how you can share CSS across multiple selectors */
+#span1,
+#span2 {
+    color: pink;
+}
