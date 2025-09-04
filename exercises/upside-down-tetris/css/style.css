@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #838383;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightgrey;
+}
+
+.red {
+    background-color: red;
+}
+
+.asdf {
+    background-color: purple;
+}
+
