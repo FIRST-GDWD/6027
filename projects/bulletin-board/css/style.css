@@ -1,27 +1,14 @@
-/*
-    NOTE TO STUDENTS: 
-
-    This is the file you should be writing your CSS in 
-    for the Bulletin Board assignment.
-
-    Good luck, and have fun!
-*/
-
 .post-it {
-    display: inline-block;
+    background-color: yellow;
     width: 200px;
     height: 200px;
+    font-family: cursive;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    display: inline-block;
 }
 
-.small {
-    width: 150px;
-    height: 150px;
-}
-
-.yellow {
-    background-color: yellow;
-}
-
-.blue {
-    background-color: lightblue;
+.post-it.purple {
+    background-color: purple;
 }
